@@ -21,5 +21,8 @@
   "homepage": "https://github.com/AmaduJallow/Begin_Node#readme",
   "dependencies": {
     "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.5"
   }
 }
