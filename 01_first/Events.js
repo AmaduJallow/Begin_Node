@@ -9,4 +9,4 @@ emitter.on("messageLogged", function(){
 
 
 //!This the event we are looking for The event that will be raised
-emitter.emit('messageLogged');
+emitter.emit('messageLog  ged');
