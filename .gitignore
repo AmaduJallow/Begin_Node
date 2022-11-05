@@ -1,4 +1,7 @@
-.vscode/**
-.vscode
+node_modules
 .idea
 package-lock.json
+.vscode
+.vscode/**
+.vscode/*
+

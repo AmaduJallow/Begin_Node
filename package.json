@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AmaduJallow/Begin_Node/issues"
   },
-  "homepage": "https://github.com/AmaduJallow/Begin_Node#readme"
+  "homepage": "https://github.com/AmaduJallow/Begin_Node#readme",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
