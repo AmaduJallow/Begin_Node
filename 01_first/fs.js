@@ -1,5 +1,4 @@
 const fs = require('fs');
-// console.log(fs.readdirSync("./"));
 
 fs.readdir("./",function(err,filename){
     if (!err){
@@ -8,4 +7,4 @@ fs.readdir("./",function(err,filename){
     else{
         console.log(err);
     }
-})
+});
