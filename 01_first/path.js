@@ -1,5 +1,4 @@
-const path = require('path')
+const path = require("path");
 
 pathObj = path.parse(__filename);
-console.log(pathObj.base.toUpperCase())
-
+console.log(pathObj.base.toUpperCase());
