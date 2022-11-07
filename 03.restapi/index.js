@@ -22,6 +22,7 @@ app.get("/api/course/:id", function (request, response) {
   if (!course) return response.status(404).send("course not found");
   response.send(course);
 });
+
 app.get("/api/users/:firstname/:lastname", function (req, res) {
   res.send(req.params);
 });
