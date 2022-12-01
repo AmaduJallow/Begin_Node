@@ -27,6 +27,18 @@ app.post("/courses", (req, res) => {
     res.send(courses);
 })
 
+app.delete("/courses/", (req, res) => {
+    if (req.body.id < courses.length + 1) {
+        let course = courses.find(course => course.id === parseInt(req.body.id));
+        let index = courses.indexOf(course);
+        courses.splice(index, 1);
+        res.send(course);
+    } else {
+        res.status(404).send("This is not a valid course id")
+
+    }
+})
+
 app.listen(8080, () => {
     console.log("Lite listening");
 });
